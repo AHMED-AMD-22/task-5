@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+.ahmed-price{
+    min-width: 200px;
+    min-height:100px;
+    max-width: 200px;
+    max-height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 500px 15px 500px 15px;
+    line-height: 90px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bbbtttttnnnn{
+    margin: 15px 45% 80px 47%;
+    font-size: 25px;
+    padding: 7px;
+    width: 90px;
+    background-color: rgba(134, 74, 1, 0);
+}
+.bbbtttttnnnn:hover{
+    box-shadow: 2px 2px 10px 1px white ;
+}
+.kjnsdkjnlsdnmafjlnalejnglmqelnfjolqnefonqleng{
+    margin-top: -150px;
+    background-image: url(../img/backkkkk.jpg);
+    background-size: cover;
+}
+#addToCart{
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.overla{
+    height: 100vh;
+    width: 80%;
+    margin-top: 150px;
+    transition: 1s;
+    margin-left: 100px;
+}
+.baccc{
+    background-image: url(../img/baccccc.png);
+    background-size: cover;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 100px;
+    top: 30%;
+    box-shadow: 1px 20px 50px 2px rgb(234, 0, 255) inset;
+    border-radius: 50%;
+    animation-name:bac-ani ;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: 1s;
+}
+
+.immm{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 100px;
+    top: 30%;
+    box-shadow: 1px 20px 80px 2px black ;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 194, 243);
+    opacity: .4;
+    animation-name:bac-ani2 ;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: none;
+    transition: 1s;
+}
+
+.conten-main{
+    text-align: center;
+    margin-left: -300px;
+}
+.title-main{
+    padding-top: 200px;
+    font-size: 66px;
+    line-height: 90px;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+    text-shadow: 1px 9px 20px black;
+    transition: 1s;
+    color: white;
+}
+.ppp-main{
+    font-size: 12x;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1s;
+    color: white;
+}
+.allertt{
+    border-radius: 500px 5px 500px 5px;
+    background-color: rgb(59, 4, 110);
+}
+.btt-allertt{
+    margin-top: 25px;
+    padding: 10px;
+}
+
+
+@keyframes  bac-ani{
+    100%{transform: rotatey(360deg)}
+}
+@keyframes bac-ani2{
+    100%{transform: rotatex(360deg)}
+}
+
+
+
+
+.sec-4{
+    text-align: center;
+    margin-top: 50px;
+}
+.sec-4 .plane{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+}
+.align1{
+    margin-bottom: 20px;
+}
+.item{
+    color: rgba(255, 255, 255, 0.63);
+    margin:25px;
+    margin-bottom:25px;
+    cursor: pointer;
+}
+.fro{
+    max-width: 300px;
+    max-height: 320px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(1, 92, 134, 0.445);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 55px;
+    box-shadow: 1px 1px 10px 1px rgb(1, 69, 255);
+}
+.back1,.back2,.back3,.back4,.back5,.back6{
+    background-image: url(../img/1111.gif);
+    background-size: cover;
+    height: 220px;
+    padding: 5px;
+    border-radius: 55px 55px 0px 0px;
+    line-height: 220px;
+}
+.back2{
+    background-image: url(../img/3333.gif);
+}
+.back3{
+    background-image: url(../img/44444.gif);
+}
+.back4{
+    background-image: url(../img/5555.gif);
+}
+.back5{
+    background-image: url(../img/222222.gif);
+}
+.back6{
+    background-image: url(../img/171717.gif);
+}
+.ico-sec-4{
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.Product{
+    font-size: 15px; 
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.486);
+}
+.star{
+    color: yellow;
+    margin-top: 5px;
+}
+.hrhrhr{
+    box-shadow: 1px 1px 40px 5px rgb(255, 255, 255);
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+}
